@@ -52,14 +52,26 @@ public class Hero {
         }
     }
 
+    /**
+     * 他のクラスからnameを取得するメソッド。
+     * @return name 名前
+     */
     public String getName(){
         return this.name;
     }
 
+    /**
+     * 他のクラスからhitPointを取得するメソッド
+     * @return hitPoint 体力
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
+    /**
+     * 他のクラスからdeadを取得するメソッド
+     * @return dead 死亡判定
+     */
     public boolean getDead(){
         return this.dead;
     }
