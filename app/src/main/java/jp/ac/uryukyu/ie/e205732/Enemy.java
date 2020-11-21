@@ -58,14 +58,6 @@ public class Enemy {
         return this.name;
     }
 
-    public int getHitPoint(){
-        return this.hitPoint;
-    }
-
-    public int getAttack(){
-        return this.attack;
-    }
-
     public boolean getDead(){
         return this.dead;
     }

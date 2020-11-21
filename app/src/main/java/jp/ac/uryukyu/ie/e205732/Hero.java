@@ -60,10 +60,6 @@ public class Hero {
         return this.hitPoint;
     }
 
-    public int getAttack(){
-        return this.attack;
-    }
-
     public boolean getDead(){
         return this.dead;
     }
